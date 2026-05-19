@@ -35,14 +35,15 @@ body {
 .box {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     background: #edeef0;
+    gap: 10px;
     border-radius: 30px;
     padding-left: 20px;
     margin-bottom: 25px;
 }
 input {
     flex: 1;
+    min-width: 0;
     border: none;
     outline: none;
     background: transparent;
@@ -52,7 +53,8 @@ input {
 button {
     border: none;
     outline: none;
-    padding: 16px 50px;
+    padding: 12px 20px;
+    white-space: nowrap;
     background: #3882e2;
     color: #fff;
     font-size: 16px;
